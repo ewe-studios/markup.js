@@ -1,19 +1,18 @@
-import * as utils from './utils';
-import * as exts from './extensions';
-import * as patch from './patch';
-import * as mount from './mount';
-import * as dom from './dom';
+import * as dom from '../../dom/src';
+import * as animations from '../../animation/src';
+import * as http from '../../http/src';
+import * as promises from '../../promises/src';
 
-const namespace = {
-  ...utils,
-  ...exts,
-  ...patch,
-  ...dom,
-  ...mount,
-};
-
-export function mountTo(parent: object & { markup: object }) {
-  parent.markup = namespace;
+const markup = {
+	dom,
+    animations,
+    http,
+    promises,
 }
 
-export default namespace;
+if (window) {
+	//@ts-ignore
+	window.markup = markup;
+}
+
+export default markup

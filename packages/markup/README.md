@@ -1,11 +1,4 @@
-# `markup`
+Wirekit 
+-------
+Wirekit provides a single package that browsers can use to import all packages related to the wirekit framework.
 
-> TODO: description
-
-## Usage
-
-```
-const markup = require('markup');
-
-// TODO: DEMONSTRATE API
-```

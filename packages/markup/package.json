@@ -1,15 +1,15 @@
 {
-  "name": "@groundlayer/markup",
+  "name": "@markupjs/markup",
   "version": "0.0.2",
-  "description": "Void markup library for html generation",
+  "description": "The markupjs project",
   "keywords": [
-    "markup", "groundlayer markup"
+    "markupjs", "markup"
   ],
   "author": "Alex Ewetumo <trinoxf@gmail.com>",
-  "homepage": "https://github.com/ewe-stuidos/markup.js/tree/master/packages/markup#readme",
+  "homepage": "https://github.com/ewe-stuidos/markup.js/tree/master/packages/groundlayergram#readme",
   "license": "MIT",
-  "main": "lib/markup.js",
-  "typings": "lib/markup.d.ts",
+  "typings": "lib/index.d.ts",
+  "main": "lib/index.js",
   "directories": {
     "lib": "lib",
     "src": "src",
@@ -18,15 +18,6 @@
   "files": [
     "lib"
   ],
-  "dependencies": {
-    "@types/css": "0.0.31",
-    "@types/lodash": "^4.14.123",
-    "@types/node": "^11.13.5",
-    "csstype": "^2.6.4",
-    "extend": "^2.0.2",
-    "promise-polyfill": "8.1.0",
-    "whatwg-fetch": "^3.0.0"
-  },
   "publishConfig": {
     "access": "public"
   },

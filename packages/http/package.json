@@ -1,9 +1,9 @@
 {
-  "name": "@groundlayer/http",
+  "name": "@markupjs/http",
   "version": "0.0.2",
   "description": "Void http libraries",
   "keywords": [
-    "groundlayer http"
+    "markupjs http"
   ],
   "author": "Alex Ewetumo <trinoxf@gmail.com>",
   "homepage": "https://github.com/ewe-stuidos/markup.js/tree/master/packages/http#readme",

@@ -1,9 +1,9 @@
 {
-  "name": "@groundlayer/animation",
+  "name": "@markupjs/animation",
   "version": "0.0.2",
-  "description": "Animations for the groundlayer library",
+  "description": "Animations for the markupjs library",
   "keywords": [
-    "groundlayer animations", "animations"
+    "markupjs animations", "animations"
   ],
   "author": "Alex Ewetumo <trinoxf@gmail.com>",
   "homepage": "https://github.com/ewe-stuidos/markup.js/tree/master/packages/animation#readme",
