@@ -1,0 +1,36 @@
+{
+  "name": "@groundlayer/groundlayergram",
+  "version": "0.0.2",
+  "description": "The groundlayer project",
+  "keywords": [
+    "groundlayer", "groundlayergram"
+  ],
+  "author": "Alex Ewetumo <trinoxf@gmail.com>",
+  "homepage": "https://github.com/ewe-stuidos/markup.js/tree/master/packages/groundlayergram#readme",
+  "license": "MIT",
+  "typings": "lib/index.d.ts",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "src": "src",
+    "test": "tests"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ewe-stuidos/markup.js.git"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/ewe-stuidos/markup.js/issues"
+  },
+  "gitHead": "20a0012478de66d5d71c0626c74a938985025107"
+}
